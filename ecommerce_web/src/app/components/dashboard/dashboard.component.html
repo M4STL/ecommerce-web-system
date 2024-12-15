@@ -1,0 +1,31 @@
+<div style="margin-top: 50px;">
+    <nz-spin [nzSpinning]="isSpinning" nzSize="large" nzTip="Working...">
+        <div class="parent">
+            <div class="child">
+                <div  nz-row class="imgDiv">
+                    <h2 style="margin-left: 230px;">Add Category</h2>
+                </div>
+                <form nz-form>
+                    <div nz-row>
+                        <div nz-col nzSpan="24">
+                            <nz-form-item>
+                                <nz-form-control nzHasFeedback nzXs="24" nzErrorTip="This input is required">
+                                    <input nz-input placeholder="Name">
+                                </nz-form-control>
+                            </nz-form-item>
+                        </div>
+                        <div nz-col nzSpan="24">
+                            <nz-form-item>
+                                <nz-form-control nzHasFeedback nzXs="24" nzErrorTip="This input is required">
+                                    <textarea rows="1" nz-input placeholder="Description"></textarea>
+                                </nz-form-control>
+                            </nz-form-item>
+                        </div>
+                    </div>
+                    <button nz-button class="login-form-button login-form-margin" nzType="primary">Add</button>
+                </form>
+            </div>
+        </div>
+
+    </nz-spin>
+</div>

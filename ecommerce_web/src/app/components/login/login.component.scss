@@ -1,0 +1,50 @@
+.bg {
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    min-height: 90vh; // Ensure the background takes the full height of the viewport
+  }
+  
+  .parent {
+    background: #fff;
+   
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 150%;
+    max-width: 400px; // Limit the form's maximum width
+    box-sizing: border-box; // Ensure padding is included in the width
+  }
+  
+  .child h1 {
+    text-align: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  
+    nz-form-item {
+      margin-bottom: 16px;
+  
+      nz-form-control {
+        width: 100%; // Keep the form control at full width within the container
+      }
+    }
+    input[nz-input] {
+      border-radius: 4px;
+      height: 40px; // Adjust input height for a better look
+    }
+  
+    button {
+      width: 100%; // Button should span the full width of the form
+      margin-top: 10px;
+    }
+  }
+  
+ 
+  
